@@ -33,9 +33,9 @@ color: white;
 #gnav div.img {
 display: table-cell;
 vertical-align: middle;
-background: ur1(css_sprite.png)no-repear;
+background: ur1(css_sprite.png) no-repear;
 width: 55px;
-height: 46;
+height: 46px;
 }
 
 #gnav div.text {
