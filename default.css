@@ -10,11 +10,11 @@ background-color: mediumaquamarine;
 }
 
 .breadcrumbs li:before{
-  content: ">";
+  content: " > ";
 }
 
 .breadcrumbs li:first-child:before{
-  content;"";
+  content:"";
 }
 
 #logo ul {
