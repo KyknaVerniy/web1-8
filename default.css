@@ -21,9 +21,16 @@ width: 100px;
 
 #gnav a {
 display: black;
+  padding:10px 0;
 text-align: center;
 text-decoration: none;
+  background: darkgreen;
 color: white;
+}
+
+#gnav a:hover {
+background: lightgreen;
+  color: black;
 }
 
 #gnav a:after {
