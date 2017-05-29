@@ -19,6 +19,17 @@ list-style-type: none;
 width: 100px;
 }
 
+#gnav li{
+  float: left;
+  width: 156px;
+  border-right: white 1px solid;
+  list-style-type: none;
+}
+
+#gnav li:first-child{
+  border-left: white 1px solid;
+}
+  
 #gnav a {
 display: black;
   padding:10px 0;
