@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+body{
+background-color: mediumaquamarine;
+}
+
+#logo li {
+display: table-cell;
+vertical-align: middle;
+padding: 0 10px;
+list-style-type: none;
+}
+
+#logo img {
+width: 100px;
+}
+
+#gnav a {
+display: black;
+text-align: center;
+text-decoration: none;
+color: white;
+}
+
+#gnav div.img {
+display: table-cell;
+vertical-align: middle;
+background: ur1(../img/css_sprite.png)no-repear;
+width: 55px;
+height: 46;
+}
+
+#gnav div.text {
+display: table-cell;
+vertical-align: middle;
+padding:10px 5px;
+}
+divimg#home{    background-position: 0 0px;}
+divimg#content1 {    background-position: 0 -46px;}
+divimg#content2{    background-position: 0 -92px;}
+divimg#help{    background-position: 0 -148px;}
+divimg#faq{    background-position: 0 -184px;}
+
